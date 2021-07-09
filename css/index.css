@@ -1,0 +1,51 @@
+.bhead {
+    background: linear-gradient(270deg, #2f6ae2, #217ff2 49%, #1592ff);
+    height: 4.3rem;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.16rem 0 rgb(11 100 228 / 30%);
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bhead p:nth-child(1) {
+    font-size: .4rem;
+    color: #78c8ff;
+}
+
+.bhead p:nth-child(2) {
+    margin-top: 10px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 700;
+    /* font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, Hiragino Sans GB, Microsoft Yahei, sans-serif; */
+}
+
+.bbody {
+    /* max-width: 7.5rem; */
+    margin: 0 auto;
+    margin-top: 5.125rem;
+}
+
+.bbody div {
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 180px;
+    max-width: 7.5rem;
+    margin: 0 auto;
+    font-size: 16px;
+    border: 2px solid #f3f4f6;
+    border-radius: 30px;
+    color: #9f9f9f;
+    box-shadow: 0 0.1rem 0.16rem 2px #f3f4f6;
+}
+
+.bfoot {
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #f4f4f4;
+}
